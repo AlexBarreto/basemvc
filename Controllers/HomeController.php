@@ -4,8 +4,18 @@
 
   class HomeController{
 
+
+    public function __construct(){
+
+      $this->view = new \Views\MainView('Home');
+
+    }
+
     public function executar(){
-      echo "<h1>Home</h1>";
+    
+      $this->view->render(array('titulo'=>'Home'));
+      
+
     }
   }
 
