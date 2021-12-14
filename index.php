@@ -18,7 +18,7 @@ $autoload = function($class){
 
 spl_autoload_register($autoload);
 
-$app = new Application();
+$app = new App();
 
 $app -> executar();
 
