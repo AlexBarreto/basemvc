@@ -11,7 +11,7 @@
 
     }
     public function executar(){
-      $this->view->render();
+      $this->view->render(array('titulo'=>'Contato'));
     }
   }
 
