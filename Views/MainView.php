@@ -14,7 +14,7 @@ class MainView{
     $this->footer = $footer;
   }
 
-  public function render(){
+  public function render($arr = []){
 
     include('pages/templates/'.$this->header.'.php');
     include('pages/'.$this->fileName.'.php');
