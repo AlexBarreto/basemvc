@@ -13,11 +13,10 @@ das paginas que estamos visualizando;
   public function executar(){
     $url = isset($_GET['url'])? explode('/',$_GET['url'])[0] : 'Home';
     $url = ucfirst($url);
-    $url.="Controllers";
+    $url.="Controller";
 
     if(file_exists("Controllers/{$url}.php")){
       $className = "Controllers\\{$url}";
-      echo "Estou carregando a classe:{$url}";
       $controler = new $className();
       $controler->executar();
     }else{

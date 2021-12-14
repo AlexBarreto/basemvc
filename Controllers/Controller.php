@@ -2,10 +2,18 @@
 
   namespace Controllers;
 
-  class ContatoControllers{
+  class Controller{
+
+    private $view;
+
+    private $model;
+
     public function executar(){
-      echo '<h1> Pagina contato!</h1>';
+
     }
+
   }
+
+
 
 ?>
