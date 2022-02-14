@@ -4,7 +4,12 @@
 
   class ContatoController extends Controller{
 
+/*
 
+Responsável em renderizar as views
+
+>>
+*/ 
     public function __construct(){
 
       $this->view = new \Views\MainView('contato');

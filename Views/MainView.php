@@ -8,6 +8,8 @@ class MainView{
   private $header;
   private $footer;
 
+  const titulo = 'Projeto MVC';
+
   public function __construct($fileName,$header = 'header',$footer = 'footer'){
     $this->fileName = $fileName;
     $this->header = $header;

@@ -1,13 +1,21 @@
 <?php
 
+/*
+
+Constante do path full das páginas.
+>>
+*/
+
+define('INCLUDE_PATH_FULL','http://www.barretodev.com/Views/pages/');
+
+
 class App{
 
 /*
 
-@return type
 Responsável em carregar a classe controladora
 das paginas que estamos visualizando;
-
+>>
 */
 
   public function executar(){

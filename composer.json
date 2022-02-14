@@ -1,9 +1,0 @@
-{
-  "name": "barretodev/mvssytem",
-  "require": {},
-  "autoload": {
-    "classmap": [
-      "classes/"
-    ]
-  }
-}
